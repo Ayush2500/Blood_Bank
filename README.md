@@ -17,7 +17,7 @@ Blood Bank is a web application developed using the MERN (MongoDB, Express.js, R
 - **Frontend:**
   - Developed using React.js for a dynamic and responsive user interface.
   - State management is handled using Redux Toolkit.
-  - Bootstrap for styling.
+  - Tailwind for styling.
 
 - **Backend:**
   - Built with Node.js and Express.js, following the MVC (Model-View-Controller) architecture.
