@@ -13,13 +13,6 @@ const createInventoryController = async (req, res) => {
       throw new Error("ERROR USER NOT FOUND");
     }
 
-    // if(inventoryType ==='in' && user.role !== 'donar'){
-    //     throw new Error("NOT A DONAR ACCOUNT");
-    // }
-    // if(inventoryType === 'out' && user.role !== 'hospital'){
-    //     throw new Error('Not a hospital account');
-    // }
-
     if (req.body.inventoryType == "out") {
       const requestedBloodGroup = req.body.bloodGroup;
       const requestedQuantityOfBlood = req.body.quantity;
